@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: lightcoral;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.titulo{
+	width: 100%;
+	font-size: 25px;
+	color: #fff;
+	margin: 10px;
+}
+
+.principal {
+	background: lightcoral;
+	border-top: 30px solid #D32F2F;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario select {
+    font-size: 18px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .formulario select option {
+    background-color: lightcoral;
+}
+
+
+.principal .formulario .boton {
+	background: #D32F2F;
+	border: 1px solid #D32F2F;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+#distancia, #bencinaTotal {
+	width: 100%;
+	background-color: #D32F2F;
+	padding: 20px;
+	margin-bottom: 10px;
+	color: #fff;
+}

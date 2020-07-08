@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULA TU VIAJE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="principal">
+		<div class="wrap">
+			<form class="formulario" action="">
+                <h2 class="titulo">Calcula tu Viaje</h2>
+				<select id="origen">
+
+                    <option value="">Selecciona un origen</option>
+
+                    <option value="-33.02457, -71.55183" >Viña del Mar</option>
+                    
+                    <option value="-36.72494, -73.11684">Talcahuano</option>
+                    
+                    <option value="-29.90453, -71.24894">La serena</option>
+
+                    <option value="-36.60664, -72.10344">Chillán</option>
+
+                    <option value="-33.45694, -70.64827">Santiágo</option>
+
+                    <option value="-41.4693, -72.94237">Puerto Montt</option>
+
+                    
+                </select>
+
+                <select id="destino">
+
+                    <option value="">Selecciona un destino</option>
+
+                    <option value="-33.02457, -71.55183" >Viña del Mar</option>
+                    
+                    <option value="-36.72494, -73.11684">Talcahuano</option>
+                    
+                    <option value="-29.90453, -71.24894">La serena</option>
+
+                    <option value="-36.60664, -72.10344">Chillán</option>
+
+                    <option value="-33.45694, -70.64827">Santiágo</option>
+
+                    <option value="-41.4693, -72.94237">Puerto Montt</option>
+                        
+                </select>
+                <select id="vehiculo">
+
+                    <option value="" >Selecciona un vehículo</option>
+
+                    <option value="suzuki" >Suzuki Celerio</option>
+                    
+                    <option value="mazda">Mazda 2 sport</option>
+                    
+                    <option value="haval">Haval H2</option>
+
+                    <option value="renault">Renault Captur Diésel</option>
+                    
+                </select>
+                <div id="distancia"></div>
+                <div id="bencinaTotal"></div>
+				<input type="button" class="boton" id="btn-calcular" value="Calcular">
+			</form>
+		</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
